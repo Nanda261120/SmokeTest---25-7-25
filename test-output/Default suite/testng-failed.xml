@@ -8,7 +8,7 @@
           <include name="beforeTest"/>
           <include name="precondition"/>
           <include name="setUpClass"/>
-          <include name="login_page"/>
+          <include name="login_page" invocation-numbers="0"/>
           <include name="stopReport"/>
           <include name="Repoet_data"/>
           <include name="report"/>
