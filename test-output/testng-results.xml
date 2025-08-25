@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T03:02:11 AEST" name="Suite" finished-at="2025-08-22T03:03:13 AEST" duration-ms="61590">
+  <suite started-at="2025-08-23T00:09:58 AEST" name="Suite" finished-at="2025-08-23T00:11:20 AEST" duration-ms="82002">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-22T03:02:11 AEST" name="Test" finished-at="2025-08-22T03:03:13 AEST" duration-ms="61590">
+    <test started-at="2025-08-23T00:09:58 AEST" name="Test" finished-at="2025-08-23T00:11:20 AEST" duration-ms="82002">
       <class name="Com.ACC.Test.TC_001_login">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:11 AEST" name="startReport" finished-at="2025-08-22T03:02:11 AEST" duration-ms="388" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:09:58 AEST" name="startReport" finished-at="2025-08-23T00:09:58 AEST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:11 AEST" name="beforeTest" finished-at="2025-08-22T03:02:11 AEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:09:58 AEST" name="beforeTest" finished-at="2025-08-23T00:09:58 AEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="Repoet_data()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:11 AEST" name="Repoet_data" finished-at="2025-08-22T03:02:11 AEST" depends-on-methods="BeforeAndAfterMethods.BeforeRunAndAfterRun.beforeTest" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Repoet_data()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:09:58 AEST" name="Repoet_data" finished-at="2025-08-23T00:09:58 AEST" depends-on-methods="BeforeAndAfterMethods.BeforeRunAndAfterRun.beforeTest" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Repoet_data -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:12 AEST" name="setUpClass" finished-at="2025-08-22T03:02:12 AEST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:09:58 AEST" name="setUpClass" finished-at="2025-08-23T00:09:58 AEST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:12 AEST" name="report" finished-at="2025-08-22T03:02:12 AEST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:09:58 AEST" name="report" finished-at="2025-08-23T00:09:58 AEST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:13 AEST" name="precondition" finished-at="2025-08-22T03:02:18 AEST" duration-ms="5126" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:10:01 AEST" name="precondition" finished-at="2025-08-23T00:10:08 AEST" duration-ms="6676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="login_page(java.lang.String,java.lang.String,int)[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:02:18 AEST" name="login_page" data-provider="fetchdata" finished-at="2025-08-22T03:03:13 AEST" duration-ms="54960" status="PASS">
+        <test-method signature="login_page(java.lang.String,java.lang.String,int)[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:10:08 AEST" name="login_page" data-provider="fetchdata" finished-at="2025-08-23T00:11:20 AEST" duration-ms="72590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_page -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:03:13 AEST" name="tearDownClass" finished-at="2025-08-22T03:03:13 AEST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:11:20 AEST" name="tearDownClass" finished-at="2025-08-23T00:11:20 AEST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="stopReport()[pri:0, instance:Com.ACC.Test.TC_001_login@4c60d6e9]" started-at="2025-08-22T03:03:13 AEST" name="stopReport" finished-at="2025-08-22T03:03:18 AEST" duration-ms="4490" status="PASS">
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:Com.ACC.Test.TC_001_login@196a42c3]" started-at="2025-08-23T00:11:20 AEST" name="stopReport" finished-at="2025-08-23T00:11:25 AEST" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
