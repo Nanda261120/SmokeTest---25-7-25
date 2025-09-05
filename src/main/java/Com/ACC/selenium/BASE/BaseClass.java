@@ -50,7 +50,7 @@ public class BaseClass extends Report implements Interface {
 	
 	public void setup(String URL) {
 	
-	System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","D:\smoketest\Contracts_SmokeTest\drivers\chromedriver.exe");
 	ChromeOptions options = new ChromeOptions();
 	// options.addArguments("--disable-gpu");              // Disables GPU, which often causes crashes in VMs or low-resource environments
 	// options.addArguments("--no-sandbox");               // Bypasses the security model, necessary for some environments
@@ -516,6 +516,7 @@ public Boolean DbAssert(String Collection, String key, int VerifyDAta) {
 	
 	
 	
+
 
 
 
