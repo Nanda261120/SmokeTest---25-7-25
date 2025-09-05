@@ -13,7 +13,7 @@ import Pages.Navigation;
 public class TC_001_login extends BeforeRunAndAfterRun {
 	
 	@BeforeTest
-	public void Repoet_data() {
+	public void Repoet_data() {	
 		
 		
 		testCaseName = "Login_Page";
