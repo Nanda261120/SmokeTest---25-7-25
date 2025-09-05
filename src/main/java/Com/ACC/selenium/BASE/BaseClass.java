@@ -50,13 +50,13 @@ public class BaseClass extends Report implements Interface {
 	
 	public void setup(String URL) {
 	
-	System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","D:\\smoketest\\Contracts_SmokeTest\\drivers\\chromedriver.exe");
 	ChromeOptions options = new ChromeOptions();
-	options.addArguments("--disable-gpu");              // Disables GPU, which often causes crashes in VMs or low-resource environments
-	options.addArguments("--no-sandbox");               // Bypasses the security model, necessary for some environments
-	options.addArguments("--disable-dev-shm-usage");    // Overcomes limited resource problems
-	options.addArguments("--remote-debugging-port=9222"); // Avoids potential DevTools port conflict
-	options.addArguments("user-data-dir=C:/temp/chrome-profile"); // Specify a valid directory path 
+//	options.addArguments("--disable-gpu");              // Disables GPU, which often causes crashes in VMs or low-resource environments
+//	options.addArguments("--no-sandbox");               // Bypasses the security model, necessary for some environments
+//	options.addArguments("--disable-dev-shm-usage");    // Overcomes limited resource problems
+//	options.addArguments("--remote-debugging-port=9222"); // Avoids potential DevTools port conflict
+//	options.addArguments("user-data-dir=C:/temp/chrome-profile"); // Specify a valid directory path 
 	ChromeOptions options1 = new ChromeOptions();
 	driver = new ChromeDriver(options1);
 	driver.manage().window().maximize();
