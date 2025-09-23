@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 05 20:09:00 AEST 2025</td>
+<td>Started on:</td><td>Tue Sep 23 09:38:30 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8514 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9874 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Com.ACC.Test.TC_001_login.login_page()'><b>login_page</b><br>Test class: Com.ACC.Test.TC_001_login<br>Parameters: hatbrown@orioninc.com, Password1234!, 1111</td>
-<td><div><pre>java.lang.Error
-	at Com.ACC.selenium.BASE.BaseClass.element(BaseClass.java:154)
-	at Pages.Login.checkUserRedirectToTheLoginPage(Login.java:26)
-	at Com.ACC.Test.TC_001_login.login_page(TC_001_login.java:34)
+<td><div><pre>java.lang.RuntimeException
+	at Com.ACC.selenium.BASE.BaseClass.click(BaseClass.java:180)
+	at Pages.Login.clikcOnTheSignToLoginButton(Login.java:19)
+	at Com.ACC.Test.TC_001_login.login_page(TC_001_login.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2007704254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2007704254'><pre>java.lang.Error
-	at Com.ACC.selenium.BASE.BaseClass.element(BaseClass.java:154)
-	at Pages.Login.checkUserRedirectToTheLoginPage(Login.java:26)
-	at Com.ACC.Test.TC_001_login.login_page(TC_001_login.java:34)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace934993374", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace934993374'><pre>java.lang.RuntimeException
+	at Com.ACC.selenium.BASE.BaseClass.click(BaseClass.java:180)
+	at Pages.Login.clikcOnTheSignToLoginButton(Login.java:19)
+	at Com.ACC.Test.TC_001_login.login_page(TC_001_login.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,7 +115,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
+<td>3</td>
 <td>Com.ACC.Test.TC_001_login@196a42c3</td></tr>
 </table><p>
 </body>

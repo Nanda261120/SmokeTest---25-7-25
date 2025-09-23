@@ -131,10 +131,10 @@
                   </a> <!-- login_page(hatbrown@orioninc.com, Password1234!, 1111) -->
                   <span class="method-name">login_page</span>
                   <span class="parameters">(hatbrown@orioninc.com, Password1234!, 1111)</span>
-                  <div class="stack-trace">java.lang.Error
-	at Com.ACC.selenium.BASE.BaseClass.element(BaseClass.java:154)
-	at Pages.Login.checkUserRedirectToTheLoginPage(Login.java:26)
-	at Com.ACC.Test.TC_001_login.login_page(TC_001_login.java:34)
+                  <div class="stack-trace">java.lang.RuntimeException
+	at Com.ACC.selenium.BASE.BaseClass.click(BaseClass.java:180)
+	at Pages.Login.clikcOnTheSignToLoginButton(Login.java:19)
+	at Com.ACC.Test.TC_001_login.login_page(TC_001_login.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -198,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login_page')
 data.setCell(0, 2, 'Com.ACC.Test.TC_001_login')
-data.setCell(0, 3, 1670);
+data.setCell(0, 3, 3366);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -236,37 +236,37 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">373 ms</span>
+                <span class="method-start">275 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">Repoet_data</span>
-                <span class="method-start">375 ms</span>
+                <span class="method-start">276 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">391 ms</span>
+                <span class="method-start">287 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">524 ms</span>
+                <span class="method-start">382 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">1854 ms</span>
+                <span class="method-start">1208 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login_page(hatbrown@orioninc.com, Password1234!, 1111)</span>
-                <span class="method-start">7202 ms</span>
+                <span class="method-start">6770 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">8878 ms</span>
+                <span class="method-start">10143 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">stopReport</span>
-                <span class="method-start">8942 ms</span>
+                <span class="method-start">10221 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
