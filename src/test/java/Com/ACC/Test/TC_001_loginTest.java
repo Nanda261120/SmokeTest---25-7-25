@@ -10,7 +10,7 @@ import Pages.Configuration;
 import Pages.Login;
 import Pages.Navigation;
 
-public class TC_001_login extends BeforeRunAndAfterRun {
+public class TC_001_loginTest extends BeforeRunAndAfterRun {
 	
 	@BeforeTest
 	public void Repoet_data() {
